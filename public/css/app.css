@@ -1,0 +1,238 @@
+body{
+    background-color: #ddd;
+}
+
+header, footer,main {
+    border: 2px solid grey;
+    padding: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: #fff;
+}
+header{
+    top: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom:0px;
+    color:grey;
+    text-transform:uppercase;
+}
+.navbar li :hover {
+    color: red;
+}
+/*  
+.row h1{
+    font-size:24px;
+    text-transform:uppercase;
+    margin-top:10PX;
+}  */
+header span{
+    color: mediumseagreen;
+    font-weight:bold;
+}
+footer{
+    bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: mediumseagreen;
+}
+
+main {
+    top: 50px;
+    bottom: 50px;
+    min-height: 600px;
+}
+.list-group{
+    width: 500px;
+    height: 400px;
+}
+
+.custom-login-container {
+    margin-top: 50px; 
+}
+.custom-login-form {
+    padding: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    height:450px;
+}
+.custom-submit-btn {
+    width: 100%;
+ }
+.text-center {
+    text-align: center !important;
+    text-transform: uppercase;
+    color:gray; 
+    }
+
+.text-center span{
+    color: mediumseagreen;
+    font-weight: bold;
+}
+
+    li{
+        list-style: none;
+        text-align: center;
+    }
+    .login {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 15px 5px;
+    }
+    li span{
+        color: gray;
+    }
+
+    .link {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+    .error{
+        text-align: center;
+        font-size: 20px;
+        font-weight: 400;
+        color: red;
+        margin-top: 35px;
+        display: none;
+    }
+
+    .productDetailsContainer{
+        margin:20px 70px;
+        display: flex;
+        flex-wrap:wrap;
+    }
+
+    .productDetailsContainer div {
+        border: 1px solid #ccc;
+        padding: 20px 20px;
+        margin:20px 20px;
+        border-radius: 10px;
+        width:300px;
+        box-shadow: 0 0 7px black;
+    }
+
+    .productDetailsContainer ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .productDetailsContainer ul li {
+        margin-bottom: 10px;
+    }
+
+    .productDetailsContainer .ptitle {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .productDetailsContainer .productDesc {
+        color: #555;
+        width:100%;
+        height:100px;
+        overflow:auto;
+        text-align:justify;
+    }
+
+    .productDetailsContainer img {
+        max-width: 100%;
+        height: 200px;
+    }
+
+    .productbutton {
+        display: flex;
+        justify-content: space-between;
+        list-style-type:none;
+     }
+    .productbutton button[type='button']{
+        margin-top:15px;
+    }
+
+    .successMsg {
+        display: none;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+        padding: 20px;
+        color:seagreen;
+    }
+.productDetailsPage{
+    display: flex;
+    flex-direction: row;
+}
+.abc{
+    margin-top:39px;
+}
+.d-flex{
+    border-radius:10px;
+}
+.nav-link{
+    text-align:left;
+    text-transform: capitalize;
+}
+.card {
+    margin-top: 10px;
+  }
+  .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    text-align:left;
+    font-weight:bold;
+}
+.form-group input[type=button]
+{
+    margin-top:10px;
+}
+label{
+    margin-bottom:3px;
+}
+#statusMsg{
+    margin-top:20px;
+    text-align:center;
+    text-transform:capitalize;
+    font-weight:500;
+    color:mediumseagreen;
+}
+
+.nav-item1:hover {
+    background-color: #c72727;
+  }
+
+  .sidebar {
+    width: 0;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+.sidebar.active {
+    width: 280px; 
+}
+
+.sidebar {
+    position: absolute;
+    top: 188px;
+}
+
+.main-content {
+    margin-left: 280px; 
+    transition: margin-left 0.3s;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

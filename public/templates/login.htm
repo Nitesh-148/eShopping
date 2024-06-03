@@ -1,0 +1,32 @@
+<div class="container custom-login-container">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <ul class="list-group custom-login-form">
+                <h2 class="text-center mb-4">Login <span>Form</span></h2>
+                <li class="list-group-item">
+                    <input type="text" class="form-control" id="accountId" name="login" placeholder="Enter user id" required>
+                </li>
+                <li class="list-group-item">
+                    <input type="password" class="form-control" id="accountpass" name="pass" placeholder="Enter password" required>
+                </li>
+                
+                <li class="list-group-item" style="overflow: hidden;">
+                    <input type="checkbox" id="rememberCredentials" style="float: left; margin:7px 7px;"> 
+                    <label for="rememberCredentials" style="float: left;">Remember me</label>
+                </li>
+
+                <li class="list-group-item">
+                    <button type="button" value ='Login' class="btn btn-primary custom-submit-btn" onclick = 'validateUserCredentials()'>Login</button>
+                </li>
+                <li class="login">
+                    <a href="#" onclick="loadSelectedPage('forgotPassword');" class="link">Forgot password?</a>
+                    <span>Don't have an account? <a href="#" onclick="loadSelectedPage('signup');" class="link">Signup</a></span>
+                </li>
+                <li class='invalidCredentials error'>
+                    Invalid login credentials
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+

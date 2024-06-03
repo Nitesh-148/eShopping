@@ -1,0 +1,52 @@
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <h5 class="card-header text-center">Add <span>Product<span></h5>
+          <div class="card-body">
+            <div class="adminPage">
+              <ul class="list-unstyled">
+                <li class="form-group">
+                  <label for="title">Product Name:</label>
+                  <input type="text" class="form-control" id="title">
+                </li>
+                <li class="form-group">
+                  <label for="price">Price:</label>
+                  <input type="number" class="form-control" id="price">
+                </li>
+                <li class="form-group">
+                  <label for="category">Category:</label>
+                  <select class="form-control" id="category">
+                    <option value="" disabled selected>Choose Category</option>
+                    <option value="Men's clothing">Men's clothing</option>
+                    <option value="Women's clothing">Women's clothing</option>
+                    <option value="Jewelery">Jewelery</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Health and Beauty">Health and Beauty</option>
+                    <option value="Home and Kitchen">Home and Kitchen</option>
+                  </select>
+                </li>
+                <li class="form-group">
+                  <label for="description">Product Description:</label>
+                  <textarea class="form-control" id="description" rows="3"></textarea>
+                </li>
+                <li class="form-group">
+                  <form method='POST' enctype = 'multipart/form-data'>
+                  <label for="image">Product Image:</label>
+                  <input type="file" class="form-control" id="image" name='prodImage'>
+                  <input type="button" class="btn btn-primary" value='Upload Image' onclick='uploadProductImage()'>
+                  </form>
+                </li>
+                <li>
+                  <button class="btn btn-primary" onclick='readProductDetails();'>Add Product</button>
+                </li>
+                <li id='statusMsg'>
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
